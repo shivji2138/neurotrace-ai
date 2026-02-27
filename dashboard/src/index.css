@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ── Global resets & utilities ────────────────────── */
+body {
+  @apply bg-gray-950 text-gray-100 font-sans antialiased;
+}
+
+/* Scrollbar styling (webkit) */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-thumb {
+  @apply bg-brand-700 rounded-full;
+}
+::-webkit-scrollbar-track {
+  @apply bg-gray-900;
+}
+
+/* ── Card glass effect ────────────────────────────── */
+.card {
+  @apply rounded-2xl border border-white/10 bg-gray-900/60 backdrop-blur-md
+         shadow-lg shadow-black/20 p-6 transition-all duration-300;
+}
+.card:hover {
+  @apply border-brand-500/30 shadow-brand-500/10;
+}
