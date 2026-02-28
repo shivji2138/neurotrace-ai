@@ -1,5 +1,3 @@
----
-
 # 🧠 NeuroTrace AI
 
 ### Cognitive Behavioral Drift Detection System
@@ -18,7 +16,6 @@ If abnormal decline is detected, the system automatically calculates a risk scor
 
 > ⚠️ Research-grade architecture demo. Not medical software.
 
----
 
 ## 🏗️ Architecture
 
