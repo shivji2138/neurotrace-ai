@@ -23,13 +23,13 @@ If abnormal decline is detected, the system automatically calculates a risk scor
 ## 🏗️ Architecture
 
 ```
-React Dashboard (:3000)
+React Dashboard 
         ↓
-Node.js Backend (:5000)
+Node.js Backend 
         ↓
-Python ML Service (:8000)
+Python ML Service
         ↓
-MongoDB (:27017)
+MongoDB 
 ```
 
 ### Pipeline
